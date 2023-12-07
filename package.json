@@ -1,0 +1,33 @@
+{
+  "name": "@nx-pkg/tsconfig",
+  "version": "4.0.1",
+  "description": "Base tsconfig.json for Nxpkg TypeScript projects",
+  "main": "tsconfig.json",
+  "files": [
+    "tsconfig.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nxpkg/tsconfig.git"
+  },
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "rules",
+    "compiler",
+    "options"
+  ],
+  "author": "Abdullah Al-Mamun <iconmamundentist@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nxpkg/tsconfig/issues"
+  },
+  "homepage": "https://github.com/nxpkg/tsconfig#readme",
+  "scripts": {
+    "prettier": "prettier tsconfig.json --list-different --write"
+  },
+  "devDependencies": {
+    "@nx-pkg/prettierrc": "^3.0.3",
+    "prettier": "^1.7.4"
+  }
+}
